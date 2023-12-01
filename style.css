@@ -1,0 +1,191 @@
+section{
+    background: #cdd3d8;
+
+}
+.body h6{
+    color: #6f83ee;
+    font-family: 'Lato', sans-serif;
+}
+.body h2{
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+}
+.body h2::before {
+    content: "";
+    height: 5%;
+    width: 4%;
+    background: blue;
+    position: absolute;
+    top: 48px;
+    left: 528px;
+}
+.body p{
+    color: #837c7c;
+}
+
+/* Body ENd  */
+
+/* Body2 Start  */
+.body2 .service{
+    height: 470px;
+    width: 100%;
+    background: white;
+    text-align: center;
+    position: relative;
+    transition: .5s;
+}
+.body2 h5{
+    margin-top: 20px;
+    display: inline-flex;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.body2 h1{
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+}
+.body2 h1::before {
+    content: "";
+    height: 1%;
+    width: 47%;
+    background: #bbbbbb;
+    position: absolute;
+    top: 140px;
+    left: 94px;
+}
+.body2 p{
+    color: #726e6e;
+}
+.body2 .one{
+    margin-top: 70px;
+    display: inline-flex;
+
+}
+
+.body2 .start a{
+    text-decoration: none;
+    background: #0d6efd;
+    color: white;
+    padding: 10px 30px;
+    border-radius:20px;
+    display: inline-block;
+    font-size: 14px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+/* .body2 .start a:hover{
+    color: rgb(255, 255, 255);
+} */
+.body2 .start a::before{
+    content: "";
+    background: #0d6efd;
+    height: 100%;
+    width: 0%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 20px;
+    z-index: -1;
+    transition: .5s;
+}
+.body2 .start a:hover::before{
+    width: 100%;
+}
+
+.body2 .service:hover{
+    background: #3c71f8;
+}
+.body2 .service:hover h5{
+    color: white;
+}
+.body2 .service .per{
+   visibility: hidden;
+}
+.body2 .service:hover .per{
+    visibility: visible;
+}
+.body2 .service:hover h1{
+    color: white;
+}
+.body2 .service:hover p{
+    color: white;
+}
+.body2 .service:hover .start a{
+    background: white;
+    color: black;
+
+}
+
+/* Body2 enD  */
+
+/* MEED Start */
+
+.meed{
+    background-image: url(https://i.ibb.co/P1Jy0G2/free-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+    text-align: center;
+    color: white;
+    z-index: 1;
+}
+.meed::before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: #234efa;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: .8;
+}
+.meed h6{
+    margin-top: 150px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.meed h2{
+    position: relative;
+}
+.meed h2::after{
+    content: "";
+    height: 2%;
+    width: 5%;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    top: 100px;
+    left: 528px;
+}
+
+.meed a{
+    text-decoration: none;
+    color:#0d6efd;
+    background: white;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 20px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+.meed a::before{
+    content: "";
+    background: #0d6efd;
+    height: 100%;
+    width: 0%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 20px;
+    z-index: -1;
+    transition: .5s;
+}
+.meed a:hover{
+  color: #cdd3d8;
+}
+.meed a:hover::before{
+    width: 100%;
+}
